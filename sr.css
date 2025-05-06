@@ -1,0 +1,46 @@
+/* Jadvalni silliq ko'rsatish uchun */
+#students {
+    width: 100%;
+    border-collapse: collapse;
+    transition: all 0.5s ease;
+  }
+  
+  #students td, #students th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  #students tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Sahifa yuklanayotganda loading animation */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  #loading {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
